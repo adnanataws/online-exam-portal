@@ -27,8 +27,10 @@ jobs:
         node-version: 14
         cache: 'npm'
     - run: cd ./backend
+    - run: pwd
     - run: npm install
     - run: cd ./frontend   
+    - run: pwd
     - run: npm install
     - run: cd ./user-portal-frontend  
     - run: npm install
