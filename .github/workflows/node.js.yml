@@ -30,5 +30,13 @@ jobs:
           cd ./frontend 
           pwd
           npm install
+    - run: |
+          cd ./backend 
+          pwd
+          npm install
+    - run: |
+          cd ./user-portal-frontend 
+          pwd
+          npm install
  
     
